@@ -33,9 +33,13 @@ public class PhoneNumberFormat {
                 sb.replace(8,8,"-");
                 System.out.println(sb);
 
+                
+                System.out.println("Its me Brian");
+                
             } else if (strInput.equals(end)) {
                 System.out.println("Ending...");
                 break;
+                
             } else if (strInput.length() > 10) {
                 System.out.println("ERROR: Number Too Long");
             } else if (strInput.length() < 10) {
@@ -43,4 +47,6 @@ public class PhoneNumberFormat {
             }
         }
     }
+    
+    
 }
